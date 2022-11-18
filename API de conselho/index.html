@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keep Believing</title>
+    <link href="./card.css" rel="stylesheet">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+
+    <br><br>
+
+    <button class="btn-art" id = "btn" type="button" onclick="showAdvice()">CONSELHO GRÁTIS (ENGLISH ONLY)</button>
+
+    <br><br>
+
+    <button style="z-index: 10;" class = "btn-art" id = "btn2" type="button" onclick="show()">Faz o Conselho aparecer Belamente</button>
+
+    <br><br>
+
+    <button style="z-index: 10;" class = "btn-art" id = "btn2" type="button" onclick="unshow()">Faz a Lista de Conselhos sumirem</button>
+
+    <ul id="listofadvices"></ul>
+
+</body>
+
+</html>
+
+<script>
+    function show(){
+        a = document.getElementById("listofadvices").children
+
+        for (var i = 0; i < a.length; i++) {
+          a[i].style.opacity = "1";
+
+        }
+    }
+
+    function unshow(){
+        document.getElementById("listofadvices").innerHTML = ""
+    }
+</script>

@@ -1,0 +1,40 @@
+.conselhoshowing {
+  display: list-item;
+  color: rgb(0, 21, 255);
+  opacity: 0;
+  transition: 0.8s;
+  font-size: 30px;
+}
+
+html {
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.btn-art {
+  margin:center;
+  cursor: pointer;
+  background-color: rgba(128, 128, 128, 0);
+  transition:0.3s;
+  font-size: large;
+  border-radius: 100px;
+}
+.btn-art:hover{
+  background-color: red;
+}
+
+body {
+
+  position: relative;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
